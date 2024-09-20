@@ -1,3 +1,4 @@
+##How to run the assignment
 ### 1. Prerequisites
 Before you start, ensure you have the following installed on your system:
 - **Docker**: [Install Docker](https://docs.docker.com/get-docker/)
@@ -9,8 +10,8 @@ Before you start, ensure you have the following installed on your system:
 ### 2. Clone the Repository
 First, clone the repository containing the assignment files:
 ```bash
-git clone <repository_url>
-cd <assignment_folder>
+git clone https://github.com/aakashkhanna/hs-assignment.git
+cd hs-assignment
 ```
 
 ---
@@ -32,9 +33,9 @@ This command will:
 ### 4. Verify the Services
 Once the services are up and running, you can test each API using the following URLs in your browser or via a tool like Postman or `curl`:
 
-- **API 1**: `http://localhost:3000`
-- **API 2**: `http://localhost:4000`
-- **API 3**: `http://localhost:5000`
+- **Users API**: `http://localhost:3000`
+- **Orders API**: `http://localhost:4000`
+- **Products API**: `http://localhost:5000`
 
 Each API should respond to its respective routes as defined in the code provided.
 
